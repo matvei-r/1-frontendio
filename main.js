@@ -1,13 +1,13 @@
-const buttonArr = document.querySelectorAll(".rate-button"); 
+const buttonArr = document.querySelectorAll(".rate-button")
+const rating = document.querySelector("#final-rating")
 
-alert("alert"); 
-
-console.log(buttonArr); 
+let lastClicked; 
 
 buttonArr.forEach( elem  => {
 
-    console.log(elem); 
-    elem.addEventListener("onClick", () => {
-        alert("heh"); 
-    });
-});
+    elem.addEventListener("click", () => {
+        lastClicked = elem.innerHTML 
+        rating.innerHTML = lastClicked
+    })
+
+})  
