@@ -19,11 +19,19 @@
     border-radius: 100%; 
 }
 
+.hidden{ 
+    display: none; 
+}
+
+#thankyou-state > * {
+    margin-top: rem; 
+}
+
 #main-container{
     background-color: green; 
 
     aspect-ratio: 1/1; 
-    width: 20rem; 
+    max-height: 20rem; 
     padding: 2rem; 
 
     border-radius: 1.75rem; 
@@ -47,3 +55,4 @@
     width: 100%; 
     height: 3rem; 
 }
+
