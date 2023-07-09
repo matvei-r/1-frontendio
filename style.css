@@ -28,7 +28,7 @@
 }
 
 #main-container{
-    background-color: green; 
+    background: radial-gradient(circle at top, white, black ); 
 
     aspect-ratio: 1/1; 
     max-height: 20rem; 

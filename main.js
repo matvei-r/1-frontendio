@@ -15,8 +15,17 @@ buttonArr.forEach( elem  => {
 
 })  
 
+
+
 const submitButton = document.querySelector("#submit")
 submitButton.addEventListener("click", () => { 
 
+    if (rating.innerHTML){
+        state1.classList.add("hidden")
+        state2.classList.remove("hidden")
+    }
+        
+    
+    
 })
 
